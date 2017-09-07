@@ -28,9 +28,9 @@ class MainActivity : AppCompatActivity(), HttpTypeItemClickListener {
 
     private val mRecyclerView: RecyclerView by bindView(R.id.recycler_view)
 
-    override fun onItemClick(view: View, postion: Int) {
-        Utils.showToast(this@MainActivity, mHttpActions[postion])
-//        Utils.startHttpRequest(this@MainActivity, mHttpActions[postion])
+    override fun onItemClick(view: View, position: Int) {
+        Utils.showToast(this@MainActivity, mHttpActions[position])
+        Utils.startHttpRequest(this@MainActivity, mHttpActions[position])
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
