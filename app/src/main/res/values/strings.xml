@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KotlinHttp</string>
+
+    <string-array name="http_types">
+        <item>"HttpClient"</item>
+        <item>"HttpURLConnection"</item>
+        <item>"AndroidAsyncHTTP"</item>
+        <item>"AndroidAsync"</item>
+        <item>"OkHttp"</item>
+        <item>"Volley"</item>
+        <item>"Retrofit"</item>
+    </string-array>
+
+    <string-array name="http_actions">
+        <item>"com.dylan.kotlinhttp.HttpClient"</item>
+        <item>"com.dylan.kotlinhttp.HttpURLConnection"</item>
+        <item>"com.dylan.kotlinhttp.AndroidAsyncHTTP"</item>
+        <item>"com.dylan.kotlinhttp.AndroidAsync"</item>
+        <item>"com.dylan.kotlinhttp.OkHttp"</item>
+        <item>"com.dylan.kotlinhttp.Volley"</item>
+        <item>"com.dylan.kotlinhttp.Retrofit"</item>
+    </string-array>
+</resources>
